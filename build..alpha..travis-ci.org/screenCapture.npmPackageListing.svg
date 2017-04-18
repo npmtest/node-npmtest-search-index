@@ -1,34 +1,34 @@
 <svg height="494" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="494" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-18 18:13:29 +0000  1683406 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-18 18:13:29 +0000     1087 bytes  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-18 18:13:29 +0000     3040 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-18 18:13:29 +0000       27 bytes  _config.yml</tspan>
-<tspan x="10" y="90">  4.  2017-04-18 18:13:29 +0000   863123 bytes  dist/search-index.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-18 18:13:29 +0000   384867 bytes  dist/search-index.min.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-18 18:13:29 +0000    13806 bytes  docs/API.md</tspan>
-<tspan x="10" y="138">  7.  2017-04-18 18:13:29 +0000       26 bytes  docs/README.md</tspan>
-<tspan x="10" y="154">  8.  2017-04-18 18:13:29 +0000     3437 bytes  docs/add.md</tspan>
-<tspan x="10" y="170">  9.  2017-04-18 18:13:29 +0000      304 bytes  docs/aggregations.md</tspan>
-<tspan x="10" y="186"> 10.  2017-04-18 18:13:29 +0000     2514 bytes  docs/autosuggest.md</tspan>
-<tspan x="10" y="202"> 11.  2017-04-18 18:13:29 +0000     1021 bytes  docs/browser.md</tspan>
-<tspan x="10" y="218"> 12.  2017-04-18 18:13:29 +0000      426 bytes  docs/browserSync.md</tspan>
-<tspan x="10" y="234"> 13.  2017-04-18 18:13:29 +0000      906 bytes  docs/create.md</tspan>
-<tspan x="10" y="250"> 14.  2017-04-18 18:13:29 +0000      764 bytes  docs/demo/index.html</tspan>
-<tspan x="10" y="266"> 15.  2017-04-18 18:13:29 +0000   384867 bytes  docs/demo/search-index.min.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-18 18:13:29 +0000     2003 bytes  docs/demo/searchapp.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-18 18:13:29 +0000     5057 bytes  docs/gulp.md</tspan>
-<tspan x="10" y="314"> 18.  2017-04-18 18:13:29 +0000     2834 bytes  docs/quickstart.md</tspan>
-<tspan x="10" y="330"> 19.  2017-04-18 18:13:29 +0000      828 bytes  docs/replicate.md</tspan>
-<tspan x="10" y="346"> 20.  2017-04-18 18:13:29 +0000     4231 bytes  docs/search.md</tspan>
-<tspan x="10" y="362"> 21.  2017-04-18 18:13:29 +0000     2825 bytes  lib/index.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-18 18:13:29 +0000      942 bytes  lib/siUtil.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-18 18:13:29 +0000     4348 bytes  package.json</tspan>
-<tspan x="10" y="410"> 24.  2017-04-18 18:13:29 +0000        0 bytes  si/000003.log</tspan>
-<tspan x="10" y="426"> 25.  2017-04-18 18:13:29 +0000       16 bytes  si/CURRENT</tspan>
-<tspan x="10" y="442"> 26.  2017-04-18 18:13:29 +0000        0 bytes  si/LOCK</tspan>
-<tspan x="10" y="458"> 27.  2017-04-18 18:13:29 +0000       57 bytes  si/LOG</tspan>
-<tspan x="10" y="474"> 28.  2017-04-18 18:13:29 +0000       50 bytes  si/MANIFEST-000002</tspan>
+<tspan x="10" y="26">  0.  2017-04-18 18:14:35 +0000  1683406 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-18 18:14:35 +0000     1087 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-18 18:14:35 +0000     3040 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-18 18:14:35 +0000       27 bytes  _config.yml</tspan>
+<tspan x="10" y="90">  4.  2017-04-18 18:14:35 +0000   863123 bytes  dist/search-index.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-18 18:14:35 +0000   384867 bytes  dist/search-index.min.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-18 18:14:35 +0000    13806 bytes  docs/API.md</tspan>
+<tspan x="10" y="138">  7.  2017-04-18 18:14:35 +0000       26 bytes  docs/README.md</tspan>
+<tspan x="10" y="154">  8.  2017-04-18 18:14:35 +0000     3437 bytes  docs/add.md</tspan>
+<tspan x="10" y="170">  9.  2017-04-18 18:14:35 +0000      304 bytes  docs/aggregations.md</tspan>
+<tspan x="10" y="186"> 10.  2017-04-18 18:14:35 +0000     2514 bytes  docs/autosuggest.md</tspan>
+<tspan x="10" y="202"> 11.  2017-04-18 18:14:35 +0000     1021 bytes  docs/browser.md</tspan>
+<tspan x="10" y="218"> 12.  2017-04-18 18:14:35 +0000      426 bytes  docs/browserSync.md</tspan>
+<tspan x="10" y="234"> 13.  2017-04-18 18:14:35 +0000      906 bytes  docs/create.md</tspan>
+<tspan x="10" y="250"> 14.  2017-04-18 18:14:35 +0000      764 bytes  docs/demo/index.html</tspan>
+<tspan x="10" y="266"> 15.  2017-04-18 18:14:35 +0000   384867 bytes  docs/demo/search-index.min.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-18 18:14:35 +0000     2003 bytes  docs/demo/searchapp.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-18 18:14:35 +0000     5057 bytes  docs/gulp.md</tspan>
+<tspan x="10" y="314"> 18.  2017-04-18 18:14:35 +0000     2834 bytes  docs/quickstart.md</tspan>
+<tspan x="10" y="330"> 19.  2017-04-18 18:14:35 +0000      828 bytes  docs/replicate.md</tspan>
+<tspan x="10" y="346"> 20.  2017-04-18 18:14:35 +0000     4231 bytes  docs/search.md</tspan>
+<tspan x="10" y="362"> 21.  2017-04-18 18:14:35 +0000     2825 bytes  lib/index.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-18 18:14:35 +0000      942 bytes  lib/siUtil.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-18 18:14:35 +0000     4348 bytes  package.json</tspan>
+<tspan x="10" y="410"> 24.  2017-04-18 18:14:35 +0000        0 bytes  si/000003.log</tspan>
+<tspan x="10" y="426"> 25.  2017-04-18 18:14:35 +0000       16 bytes  si/CURRENT</tspan>
+<tspan x="10" y="442"> 26.  2017-04-18 18:14:35 +0000        0 bytes  si/LOCK</tspan>
+<tspan x="10" y="458"> 27.  2017-04-18 18:14:35 +0000       57 bytes  si/LOG</tspan>
+<tspan x="10" y="474"> 28.  2017-04-18 18:14:35 +0000       50 bytes  si/MANIFEST-000002</tspan>
 </text>
 </svg>
