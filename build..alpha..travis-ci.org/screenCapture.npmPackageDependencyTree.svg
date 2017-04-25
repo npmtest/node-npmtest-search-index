@@ -4,7 +4,7 @@
 <tspan x="10" y="26">21 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
-<tspan x="10" y="74">└─┬ search-index@0.10.0 </tspan>
+<tspan x="10" y="74">└─┬ search-index@0.11.0 </tspan>
 <tspan x="10" y="90">  ├─┬ bunyan@1.8.10 </tspan>
 <tspan x="10" y="106">  │ ├─┬ dtrace-provider@0.8.1 </tspan>
 <tspan x="10" y="122">  │ │ └── nan@2.6.2 </tspan>
@@ -34,10 +34,10 @@
 <tspan x="10" y="506">  │   ├── node-abi@2.0.0 </tspan>
 <tspan x="10" y="522">  │   ├── noop-logger@0.1.1 </tspan>
 <tspan x="10" y="538">  │   ├─┬ npmlog@4.0.2 </tspan>
-<tspan x="10" y="554">  │   │ ├─┬ are-we-there-yet@1.1.2 </tspan>
+<tspan x="10" y="554">  │   │ ├─┬ are-we-there-yet@1.1.4 </tspan>
 <tspan x="10" y="570">  │   │ │ └── delegates@1.0.0 </tspan>
 <tspan x="10" y="586">  │   │ ├── console-control-strings@1.1.0 </tspan>
-<tspan x="10" y="602">  │   │ ├─┬ gauge@2.7.3 </tspan>
+<tspan x="10" y="602">  │   │ ├─┬ gauge@2.7.4 </tspan>
 <tspan x="10" y="618">  │   │ │ ├── aproba@1.1.1 </tspan>
 <tspan x="10" y="634">  │   │ │ ├── has-unicode@2.0.1 </tspan>
 <tspan x="10" y="650">  │   │ │ ├── object-assign@4.1.1 </tspan>
@@ -83,7 +83,7 @@
 <tspan x="10" y="1290">  │ ├── prr@1.0.1 </tspan>
 <tspan x="10" y="1306">  │ ├── semver@5.1.1 </tspan>
 <tspan x="10" y="1322">  │ └── xtend@4.0.1 </tspan>
-<tspan x="10" y="1338">  ├─┬ search-index-adder@0.2.1 </tspan>
+<tspan x="10" y="1338">  ├─┬ search-index-adder@0.2.2 </tspan>
 <tspan x="10" y="1354">  │ ├─┬ async@2.3.0 </tspan>
 <tspan x="10" y="1370">  │ │ └── lodash@4.17.4 </tspan>
 <tspan x="10" y="1386">  │ ├─┬ docproc@0.0.10 </tspan>
@@ -101,7 +101,7 @@
 <tspan x="10" y="1578">  │     │ ├── string_decoder@1.0.0 </tspan>
 <tspan x="10" y="1594">  │     │ └── util-deprecate@1.0.2 </tspan>
 <tspan x="10" y="1610">  │     └── stream-shift@1.0.0 </tspan>
-<tspan x="10" y="1626">  └─┬ search-index-searcher@0.2.0 </tspan>
+<tspan x="10" y="1626">  └─┬ search-index-searcher@0.2.1 </tspan>
 <tspan x="10" y="1642">    ├── intersect-arrays-to-stream@0.0.3 </tspan>
 <tspan x="10" y="1658">    ├── lodash.difference@4.5.0 </tspan>
 <tspan x="10" y="1674">    ├── lodash.intersection@4.4.0 </tspan>
