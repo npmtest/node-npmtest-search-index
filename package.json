@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [search-index (v0.10.0)](https://github.com/fergiemcdowall/search-index)  [![npm package](https://img.shields.io/npm/v/npmtest-search-index.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-search-index) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-search-index.svg)](https://travis-ci.org/npmtest/node-npmtest-search-index)",
+    "description": "#### basic test coverage for  [search-index (v0.11.0)](https://github.com/fergiemcdowall/search-index)  [![npm package](https://img.shields.io/npm/v/npmtest-search-index.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-search-index) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-search-index.svg)](https://travis-ci.org/npmtest/node-npmtest-search-index)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "search-index": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }

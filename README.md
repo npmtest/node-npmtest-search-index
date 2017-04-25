@@ -1,6 +1,6 @@
 # npmtest-search-index
 
-#### test coverage for  [search-index (v0.10.0)](https://github.com/fergiemcdowall/search-index)  [![npm package](https://img.shields.io/npm/v/npmtest-search-index.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-search-index) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-search-index.svg)](https://travis-ci.org/npmtest/node-npmtest-search-index)
+#### basic test coverage for  [search-index (v0.11.0)](https://github.com/fergiemcdowall/search-index)  [![npm package](https://img.shields.io/npm/v/npmtest-search-index.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-search-index) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-search-index.svg)](https://travis-ci.org/npmtest/node-npmtest-search-index)
 
 #### A persistent full text search engine for the browser and Node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-search-index/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-search-index/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-search-index/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-search-index/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-search-index/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-search-index/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-search-index/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-search-index/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-search-index/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-search-index/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-search-index/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-search-index/build/coverage.html/index.html)
 
@@ -44,12 +44,17 @@
     "bugs": {
         "url": "https://github.com/fergiemcdowall/search-index/issues"
     },
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    },
     "dependencies": {
         "bunyan": "^1.8.10",
         "leveldown": "^1.6.0",
         "levelup": "^1.3.5",
         "search-index-adder": "^0.2.1",
-        "search-index-searcher": "^0.2.0"
+        "search-index-searcher": "^0.2.1"
     },
     "description": "A persistent full text search engine for the browser and Node.js",
     "devDependencies": {
@@ -57,6 +62,8 @@
         "brfs": "^1.4.3",
         "browser-run": "^3.3.0",
         "browserify": "^13.1.0",
+        "commitizen": "^2.9.6",
+        "cz-conventional-changelog": "^2.0.0",
         "disc": "^1.3.2",
         "highland": "^2.10.0",
         "http-server": "^0.9.0",
@@ -79,13 +86,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "31c20697b64b6fd37cdb1ea8bcaf86538acacbe5",
-        "tarball": "https://registry.npmjs.org/search-index/-/search-index-0.10.0.tgz"
+        "shasum": "47a9c3188135c5a57a91dfd7f00a92aa51674a6e",
+        "tarball": "https://registry.npmjs.org/search-index/-/search-index-0.11.0.tgz"
     },
     "engines": {
         "node": ">=4"
     },
-    "gitHead": "bf6af75377f9dc4d8cafdc7a420d6601aa3bfcd7",
+    "gitHead": "4febe838f0291f9a71b0b2db1f063b23ce341101",
     "homepage": "https://github.com/fergiemcdowall/search-index",
     "keywords": [
         "index",
@@ -113,6 +120,7 @@
     },
     "scripts": {
         "anylize-web-bundle": "browserify --full-paths lib/index.js --standalone SearchIndex > dist/search-index-full-paths.js && discify dist/search-index-full-paths.js > dist/out.html",
+        "commit": "git-cz",
         "demo-server": "http-server && echo 'demo is running at /doc/demo/'",
         "dist": "browserify lib/index.js --standalone SearchIndex > dist/search-index.js",
         "dist-min": "npm run dist && cat dist/search-index.js | uglifyjs -c dead_code > dist/search-index.min.js && cp dist/search-index.min.js docs/demo/",
@@ -123,7 +131,8 @@
         "test-node": "tape test/node/tape-tests/*.js && mocha test/node/mocha-tests --recursive --timeout 10000",
         "test-with-local-deps": "npm install && npm install ../search-index-adder ../search-index-searcher && npm test"
     },
-    "version": "0.10.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
